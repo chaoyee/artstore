@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'font-awesome-rails'
+gem 'awesome_rails_console'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -45,6 +45,12 @@ gem "mini_magick"
 gem "font-awesome-rails"
 
 gem "aasm"
+
+gem "roadie", "2.4.3"
+
+group :development do
+  gem 'letter_opener'
+end
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record

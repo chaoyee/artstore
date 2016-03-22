@@ -8,6 +8,7 @@
         <tr>
           <th width="80%">商品明細</th>
           <th>單價</th>
+          <th>數量</th>
         </tr>
       </thead>
       <tbody>
@@ -19,6 +20,9 @@
             </td>
             <td>
               <%= product.price %>
+            </td>
+            <td>
+              <%= current_cart.find_cart_item(product).quantity %>
             </td>
           </tr>
         <% end %>
@@ -60,7 +64,7 @@
         <% end %>
 
         <div class="checkout">
-          <%= f.submit "生成訂單", class: "btn btn-lg btn-danger pull-right",
+          <%= f.submit "產生訂單", class: "btn btn-lg btn-danger pull-right",
                        data: { disable_with: "Submitting..." } %>
         </div>
       <% end %>
