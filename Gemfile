@@ -52,6 +52,8 @@ gem "pay2go"
 
 gem 'figaro'
 
+gem 'fog'
+
 group :development do
   gem 'letter_opener'
 end
