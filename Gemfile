@@ -50,6 +50,8 @@ gem "roadie", "2.4.3"
 
 gem "pay2go"
 
+gem 'figaro'
+
 group :development do
   gem 'letter_opener'
 end
