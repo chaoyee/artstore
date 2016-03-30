@@ -14,10 +14,11 @@
   pay2go_hash_key:       "siQtMNJ3fiDeAdkTOoxrGGIEGrKBXnaq"
   pay2go_hash_iv:        "G0UtOEw3WaiwnCqc"
   pay2go_service_url:    "https://capi.pay2go.com/MPG/mpg_gateway"
+  aws_access_key_id:     "AKIAIX6YLT3CTGR2PSMQ"
+  aws_secret_access_key: "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"
 production:
   pay2go_merchant_id:    "1974096"
   pay2go_hash_key:       "siQtMNJ3fiDeAdkTOoxrGGIEGrKBXnaq"
   pay2go_hash_iv:        "G0UtOEw3WaiwnCqc"
   pay2go_service_url:    "https://capi.pay2go.com/MPG/mpg_gateway"
-  aws_access_key_id:     "AKIAIX6YLT3CTGR2PSMQ"
-  aws_secret_access_key: "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"
+
