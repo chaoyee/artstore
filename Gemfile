@@ -54,6 +54,8 @@ gem 'figaro'
 
 gem 'fog'
 
+gem 'delayed_job_active_record'
+
 group :development do
   gem 'letter_opener'
 end
