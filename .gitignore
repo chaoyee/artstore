@@ -22,3 +22,5 @@ public/uploads
 
 # Ignore application configuration
 /config/application.yml
+
+/config/locales/devise.zh-TW.yml.bak
